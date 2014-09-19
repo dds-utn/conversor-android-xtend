@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Conversor</string>
+  <string name="hello_world">Hola amigo!</string>
+  <string name="say_hello_to_me">Saludame</string>
+</resources>
