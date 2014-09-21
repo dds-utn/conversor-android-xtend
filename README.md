@@ -12,3 +12,14 @@ No es más que el viejo y querido conversor de kilómetros a millas en su versi�
 2. [Xtend](https://github.com/dds-utn/conversor-android-xtend/blob/6480f41a507ca8500895c3ddc1ec252b5b292514/app/src/main/java/org/unq/conversor/app/ui/MainActivity.xtend)
 3. [Xtend + Xtendroid](https://github.com/dds-utn/conversor-android-xtend/blob/0b4f18cecbc93acea4b07e1eaefe620e81eca266/app/src/main/java/org/unq/conversor/app/ui/MainActivity.xtend)
 4. (Próximamente) Bindings
+
+### Cómo correr el ejemplo
+
+#### Desde la terminal 
+
+- con un telefono Android conectado, en modo debug:
+
+```
+gradle installDebug
+adb shell am start -n org.unq.conversor.app/.ui.MainActivity
+```
